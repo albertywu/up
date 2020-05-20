@@ -21,6 +21,7 @@ readonly formulae=(
 echo "--- installing casks ---"
 readonly casks=(
   dropbox
+  google-chrome
 )
 
 echo "--- linking config using mackup ---"
