@@ -7,6 +7,7 @@ echo "--- installing formulae ---"
 formulae=(
   autojump
   fzf
+  mackup
   readline
   tldr
   the_silver_searcher
