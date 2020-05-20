@@ -5,9 +5,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 echo "--- installing brew ---"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew update
+brew tap caskroom/cask
 
 echo "--- installing formulae ---"
-formulae=(
+readonly formulae=(
   autojump
   fzf
   mackup
@@ -16,7 +18,10 @@ formulae=(
   the_silver_searcher
 )
 
-echo "--- TODO: install Dropbox ---"
+echo "--- installing casks ---"
+readonly casks=(
+  dropbox
+)
 
 echo "--- linking config using mackup ---"
 mackup restore
