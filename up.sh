@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "--- installing direnv ---"
+curl -sfL https://direnv.net/install.sh | bash
+
 echo "--- installing oh-my-zsh ---"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
