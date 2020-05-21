@@ -25,6 +25,7 @@ echo "--- installing casks ---"
 readonly casks=(
   dropbox
   google-chrome
+  iterm2
 )
 
 echo "--- linking config using mackup ---"
