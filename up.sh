@@ -19,6 +19,7 @@ readonly formulae=(
   readline
   tldr
   the_silver_searcher
+  youtube-dl
 )
 
 echo "--- installing casks ---"
@@ -26,6 +27,7 @@ readonly casks=(
   dropbox
   google-chrome
   iterm2
+  licecap
 )
 
 echo "--- linking config using mackup ---"
